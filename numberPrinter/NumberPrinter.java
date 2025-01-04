@@ -2,7 +2,7 @@ package numberPrinter;
 
 public class NumberPrinter implements Runnable{
 
-    private int number;
+    private final int number;
 
     public NumberPrinter(int number){
         this.number = number;
